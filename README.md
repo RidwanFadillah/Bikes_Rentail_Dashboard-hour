@@ -1,8 +1,16 @@
 # **Bikes Sharing/hour Dashboard**
 
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.12.6
+conda activate main-ds
+pip install -r requirements.txt
+```
+
 ## Setup Environment - Shell/Terminal
 ```
-python -m venv .venv
+pipenv install
+pipenv shell
 pip install -r requirements.txt
 ```
 
