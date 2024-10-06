@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-data = pd.read_csv('/dashboard/main_data.csv')
+data = pd.read_csv('main_data.csv')
 
 # Sidebar configuration
 with st.sidebar:
