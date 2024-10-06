@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-data = pd.read_csv('main_data.csv')
+data = pd.read_csv('https://docs.google.com/spreadsheets/d/1HxE1YctDnsUy0xr1HzeNGRKR1iatEfqv6FdGfIBQY1M/edit?usp=sharing')
 
 # Sidebar configuration
 with st.sidebar:
